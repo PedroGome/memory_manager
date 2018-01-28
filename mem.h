@@ -13,7 +13,7 @@ typedef struct{
 /* ledger creation */
 ledger_entry ** ledger;
 
-/* function declarations */ 
+/* function declarations */
 unsigned int ledgerSize (void);
 
 void         record     (const char   *file,
